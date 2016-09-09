@@ -164,15 +164,8 @@
       "output": "builds/{{user `box_basename`}}.{{.Provider}}.box",
       "type": "vagrant",
       "keep_input_artifact": false
-    },
-    {
-    "type": "atlas",
-    "artifact": "{{user `name`}}",
-    "artifact_type": "vagrant.box",
-    "metadata": {
-                "version": "{{user `version`}}"
-               }
-   }]],
+    }
+    ]],
   "variables": {
     "box_basename": "Lubuntu1604",
     "build_timestamp": "{{isotime \"2016-08-25\"}}",
