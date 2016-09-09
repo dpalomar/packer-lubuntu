@@ -9,7 +9,7 @@ Clean desktop whitout heavy software installed.
 
   - VirtualBox
   - VMware
-  - Parallels
+  
 
 ## Requirements
 
