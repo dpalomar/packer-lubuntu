@@ -163,7 +163,7 @@
     {
       "output": "builds/{{user `box_basename`}}.{{.Provider}}.box",
       "type": "vagrant",
-      "keep_input_artifact": false
+      
     }
     ]],
   "variables": {
@@ -182,7 +182,7 @@
     "metadata": "floppy/dummy_metadata.json",
     "mirror": "http://releases.ubuntu.com",
     "mirror_directory": "16.04",
-    "name": "dpalomar/Lubuntu1604",
+    "name": "dpalomar/Lubuntu16",
     "no_proxy": "{{env `no_proxy`}}",
     "preseed_path": "preseed.cfg",
     "template": "ubuntu-16.04-amd64",
